@@ -4,7 +4,7 @@ import type { LoginCredentials } from '@/types';
 // ============================================
 // CONFIGURATION
 // ============================================
-const API_BASE = (import.meta.env?.VITE_API_URL as string) || 'https://mumtaz-store-api.onrender.com/api';
+const API_BASE = (import.meta.env?.VITE_API_URL as string) || '/api';
 
 const axiosInstance = axios.create({
   baseURL: API_BASE,
