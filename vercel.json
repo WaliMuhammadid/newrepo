@@ -7,10 +7,6 @@
       "config": {
         "distDir": "dist"
       }
-    },
-    {
-      "src": "api/index.js",
-      "use": "@vercel/node"
     }
   ],
   "routes": [
@@ -26,9 +22,5 @@
   "env": {
     "MONGODB_URI": "mongodb+srv://mumtazadmin:walil1771@cluster0.gmpooxj.mongodb.net/mumtaz-store?retryWrites=true&w=majority",
     "JWT_SECRET": "mumtaz-store-super-secret-jwt-key-2024"
-  },
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist",
-  "installCommand": "npm install",
-  "framework": "vite"
+  }
 }
